@@ -7100,6 +7100,10 @@
             file="Source/PluginProcessor.cpp"/>
       <FILE id="feZLPy" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
+      <FILE id="pJ2v0l" name="AIClient.cpp" compile="1" resource="0" file="Source/AIClient.cpp"/>
+      <FILE id="d2a6Xh" name="AIClient.h" compile="0" resource="0" file="Source/AIClient.h"/>
+      <FILE id="ETbqgn" name="AIController.cpp" compile="1" resource="0" file="Source/AIController.cpp"/>
+      <FILE id="mTsG9I" name="AIController.h" compile="0" resource="0" file="Source/AIController.h"/>
       <FILE id="VWUKSX" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="RybH4J" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
