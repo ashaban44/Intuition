@@ -135,7 +135,8 @@ IntuitionAudioProcessor::IntuitionAudioProcessor()
         &lfoPhase3
     ),
     envManager(parameters),
-    reverbModule(parameters, &modMatrix)
+    reverbModule(parameters, &modMatrix),
+    googleStudioClient(parameters)
 {
     parameters.state = juce::ValueTree("PARAMETERS");
 

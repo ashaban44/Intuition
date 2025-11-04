@@ -17,6 +17,7 @@
 #include "ItnContext.h"
 #include "EnvelopeManager.h"
 #include "ReverbModule.h"
+#include "AI/GoogleStudioClient.h"
 
 
 //==============================================================================
@@ -44,6 +45,9 @@ public:
     EnvelopeManager envManager;
 
     ItnContext context;
+
+    GoogleStudioClient& getGoogleStudioClient() { return googleStudioClient; }
+    const GoogleStudioClient& getGoogleStudioClient() const { return googleStudioClient; }
 
     void resetSynths();
 
@@ -99,6 +103,7 @@ private:
     float envValue3 = 0.0f;
 
     ReverbModule reverbModule;
+    GoogleStudioClient googleStudioClient;
 
     float getDivisionFloat(int syncDiv);
     void calculateLFOFrequency(
