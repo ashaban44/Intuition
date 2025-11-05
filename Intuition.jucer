@@ -7022,6 +7022,25 @@
                 file="Source/ReverbDisplay.cpp"/>
           <FILE id="TcNlYv" name="ReverbDisplay.h" compile="0" resource="0" file="Source/ReverbDisplay.h"/>
         </GROUP>
+        <GROUP id="{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}" name="AIGUI">
+          <FILE id="AI0001" name="AIControlPanel.cpp" compile="1" resource="0"
+                file="Source/AIControlPanel.cpp"/>
+          <FILE id="AI0002" name="AIControlPanel.h" compile="0" resource="0" file="Source/AIControlPanel.h"/>
+          <FILE id="AI0003" name="AIParameterController.h" compile="0" resource="0"
+                file="Source/AIParameterController.h"/>
+          <FILE id="AI0004" name="ChatGPTParameterController.cpp" compile="1" resource="0"
+                file="Source/ChatGPTParameterController.cpp"/>
+          <FILE id="AI0005" name="ChatGPTParameterController.h" compile="0" resource="0"
+                file="Source/ChatGPTParameterController.h"/>
+          <FILE id="AI0006" name="ParameterMapper.cpp" compile="1" resource="0"
+                file="Source/ParameterMapper.cpp"/>
+          <FILE id="AI0007" name="ParameterMapper.h" compile="0" resource="0"
+                file="Source/ParameterMapper.h"/>
+          <FILE id="AI0008" name="APIKeyManager.cpp" compile="1" resource="0"
+                file="Source/APIKeyManager.cpp"/>
+          <FILE id="AI0009" name="APIKeyManager.h" compile="0" resource="0"
+                file="Source/APIKeyManager.h"/>
+        </GROUP>
         <FILE id="RPytXF" name="ItnMidiKeyboard.cpp" compile="1" resource="0"
               file="Source/ItnMidiKeyboard.cpp"/>
         <FILE id="U8FiqK" name="ItnMidiKeyboard.h" compile="0" resource="0"

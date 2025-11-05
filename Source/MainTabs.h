@@ -14,6 +14,7 @@
 #include "ModMatrix.h"
 #include "OscillatorTab.h"
 #include "EffectsTab.h"
+#include "AIControlPanel.h"
 
 
 /// <summary>
@@ -32,6 +33,7 @@ private:
 
     OscillatorTab oscTab;
     EffectsTab fxTab;
+    AIControlPanel aiTab;
 
     void timerCallback() override;
 };
